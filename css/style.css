@@ -155,9 +155,9 @@ section{
 .header .cart-items-container{
     position: absolute;
     top:100%; right: -100%;
-    height: calc(100vh - 9.5rem);
-    width: 35rem;
-    background: #fff;
+    height: calc(5vh - 9.5rem);
+    width: 30rem;
+    background: var(--bgg);
     padding:0 1.5rem;
 }
 
@@ -596,9 +596,10 @@ section{
     .header .navbar{
         position: absolute;
         top:100%; right: -100%;
-        background: #fff;
+        background:#d3ad7f;
         width: 30rem;
         height: calc(100vh - 9.5rem);
+        
     }
 
     .header .navbar.active{
